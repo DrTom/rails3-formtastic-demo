@@ -11,4 +11,6 @@ bundle install
 bundle install
 rails g scaffold category name:string description:text
 rake db:migrate
+
 rails generate migration AddDataToCategories
+rake db:migrate
