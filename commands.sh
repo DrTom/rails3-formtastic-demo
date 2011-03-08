@@ -16,3 +16,7 @@ rails generate migration AddDataToCategories
 rake db:migrate
 
 rails generate formtastic:install
+
+rails generate scaffold animal name:string category_id:integer born_on:date female:boolean
+rake db:migrate
+

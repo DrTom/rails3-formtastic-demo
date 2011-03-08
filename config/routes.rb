@@ -1,4 +1,6 @@
 FormtasticDemo::Application.routes.draw do
+  resources :animals
+
   resources :categories
 
   # The priority is based upon order of creation:

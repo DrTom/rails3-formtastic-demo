@@ -10,7 +10,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110308182940) do
+ActiveRecord::Schema.define(:version => 20110308192831) do
+
+  create_table "animals", :force => true do |t|
+    t.string   "name"
+    t.integer  "category_id"
+    t.date     "born_on"
+    t.boolean  "female"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "categories", :force => true do |t|
     t.string   "name"
