@@ -1,4 +1,9 @@
 <%= semantic_form_for(@animal) do |f| %>
-  <%= f.inputs %>
-  <%= f.buttons %>
+  <% f.inputs do %>
+    <%= f.input :name%>
+    <%= f.input :born_on%>
+    <%= f.input :category%>
+    <%= f.input :female%> 
+    <%= f.buttons %>
+  <% end %>
 <% end %>
