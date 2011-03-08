@@ -1,0 +1,6 @@
+Rails Formtastic3-Demo
+======================
+ 
+The title says it all. 
+
+The demo follows roughly: [Railscast 184, Formtastic Part 1](http://railscasts.com/episodes/184-formtastic-part-1).
