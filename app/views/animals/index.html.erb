@@ -14,7 +14,7 @@
 <% @animals.each do |animal| %>
   <tr>
     <td><%= animal.name %></td>
-    <td><%= animal.category_id %></td>
+    <td><%= animal.category.name %></td>
     <td><%= animal.born_on %></td>
     <td><%= animal.female %></td>
     <td><%= link_to 'Show', animal %></td>
