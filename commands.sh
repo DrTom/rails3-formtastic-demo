@@ -14,3 +14,5 @@ rake db:migrate
 
 rails generate migration AddDataToCategories
 rake db:migrate
+
+rails generate formtastic:install
